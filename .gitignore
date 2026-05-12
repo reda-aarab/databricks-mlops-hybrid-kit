@@ -1,0 +1,28 @@
+# venvs locaux
+.venv/
+.venv*/
+venv/
+
+# Modèle téléchargé (généré par pull_artifact.py)
+onprem/local_model/
+
+# Logs locaux
+logs/
+*.log
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Sortie de tests locaux
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp

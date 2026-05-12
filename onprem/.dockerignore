@@ -1,0 +1,7 @@
+# Exclure tout ce qui n'a rien à faire dans l'image — l'image est minimale.
+.venv*
+__pycache__
+*.pyc
+local_model
+logs
+.DS_Store
